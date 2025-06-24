@@ -1,0 +1,13 @@
+langchain
+langchain_community
+langchain_core
+langchain-text-splitters
+python_dotenv
+pypdf
+ipykernel
+langchain-openai
+chromadb
+beautifulsoup4
+faiss-cpu
+streamlit
+langchain-ollama
