@@ -40,7 +40,7 @@ st.sidebar.title('Settings')
 #api_key = st.sidebar.text_input('Enter your Open AI API Key', type='password')
 
 # dropdown for selecting the model
-llm = st.selectbox('Select the model', ['gpt-3.5-turbo'])
+llm = st.selectbox('Select the model', ['gpt-3.5-turbo','gpt-4o'])
 
 temperature = st.sidebar.slider('Temperature', 0.0, 1.0, 0.5)
 max_tokens = st.sidebar.slider('Max Tokens', 1, 200, 50)
